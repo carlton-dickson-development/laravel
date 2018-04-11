@@ -14,3 +14,14 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/carlton', function () {
+    echo 'carlton';
+    echo 'carlton';
+    echo 'carlton';
+    echo 'carlton';
+    echo 'carlton';
+    echo 'carlton';
+    echo 'carlton';
+    return view('carlton');
+});
